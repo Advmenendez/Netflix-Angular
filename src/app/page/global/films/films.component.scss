@@ -1,0 +1,16 @@
+.scifi-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  .scifi-gallery {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+    img {
+      padding: 3px;
+      width: 200px;
+    }
+  }
+}

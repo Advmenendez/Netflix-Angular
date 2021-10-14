@@ -1,0 +1,17 @@
+<div class="scifi-container">
+  <h2>{{scifi.title}}</h2>
+  <div class="scifi-gallery">
+    <div *ngFor="let img of scifi.gallery">
+      <img src="{{ img.img.src }}" alt="{{ img.img.alt }}" />
+    </div>
+  </div>
+</div>
+<div class="scifi-container">
+    <h2>{{action.title}}</h2>
+    <div class="scifi-gallery">
+      <div *ngFor="let img of scifi.gallery">
+        <img src="{{ img.img.src }}" alt="{{ img.img.alt }}" />
+      </div>
+    </div>
+  </div>
+  
